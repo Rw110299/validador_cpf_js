@@ -1,12 +1,12 @@
 {
-  "name": "validadordecpfjs",
+  "name": "validador_cpf_js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Validador de CPF simples com interface web, testes automatizados e suporte a Node.js.",
+  "main": "cod/cpfValidator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "jest": "^30.0.2"
+  }
 }
