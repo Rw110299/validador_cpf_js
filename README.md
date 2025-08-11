@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # validador_cpf_js
 Problema que resolve: Verifica se um CPF é válido, prevenindo entradas incorretas em cadastros.  Público-alvo: Desenvolvedores, empresas ou estudantes que precisam validar CPF em formulários ou aplicações web.
 =======
@@ -61,5 +60,4 @@ Richard Souza
 GitHub: @Rw110299
 
 ## 📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
->>>>>>> 6fe29d9 (corrige estrutura: remove submódulo e integra arquivos)
+Este projeto está sob a licença MIT. Veja o 
