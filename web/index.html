@@ -1,16 +1,39 @@
 <!DOCTYPE html>
+<!-- Define que este documento é um arquivo HTML5 -->
+
 <html lang="pt-BR">
+<!-- Início do documento HTML, com idioma definido como português do Brasil -->
+
 <head>
+  <!-- Cabeçalho do documento: informações que não aparecem diretamente na página -->
+  
   <meta charset="UTF-8">
+  <!-- Define a codificação de caracteres como UTF-8, garantindo suporte a caracteres especiais -->
+
   <title>Validador de CPF</title>
+  <!-- Título da página que aparece na aba do navegador -->
+
   <link rel="stylesheet" href="style.css">
+  <!-- Link para o arquivo CSS externo que estiliza a página -->
 </head>
+
 <body>
+  <!-- Corpo da página, conteúdo visível para o usuário -->
+
   <h1>Validador de CPF</h1>
+  <!-- Título principal da página -->
+
   <input type="text" id="cpf" placeholder="Digite o CPF">
+  <!-- Campo de texto para o usuário digitar o CPF, com um texto guia -->
+
   <button onclick="validar()">Validar</button>
+  <!-- Botão que, ao ser clicado, executa a função validar() definida no script -->
+
   <p id="resultado"></p>
+  <!-- Parágrafo vazio onde será exibido o resultado da validação -->
 
   <script src="script.js"></script>
+  <!-- Inclusão do arquivo JavaScript externo que contém a lógica para validar o CPF -->
+
 </body>
 </html>

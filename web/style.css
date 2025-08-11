@@ -1,23 +1,27 @@
+/* Estilo geral do corpo da página */
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
-  background-color: #f9f9f9;
+  font-family: Arial, sans-serif; /* Define a fonte do texto para Arial ou uma fonte sans-serif */
+  text-align: center;             /* Centraliza o texto horizontalmente na página */
+  padding: 20px;                  /* Adiciona um espaçamento interno de 20 pixels ao redor do conteúdo */
+  background-color: #f9f9f9;     /* Define a cor de fundo da página como um cinza bem claro */
 }
 
+/* Estilo para o campo de entrada de texto */
 input {
-  padding: 8px;
-  font-size: 16px;
-  margin-right: 10px;
+  padding: 8px;                   /* Espaçamento interno de 8 pixels para facilitar a digitação */
+  font-size: 16px;                /* Tamanho da fonte do texto dentro do input */
+  margin-right: 10px;             /* Espaço de 10 pixels à direita para separar do botão */
 }
 
+/* Estilo para o botão */
 button {
-  padding: 8px 12px;
-  font-size: 16px;
-  cursor: pointer;
+  padding: 8px 12px;             /* Espaçamento interno: 8 pixels em cima/baixo e 12 pixels nas laterais */
+  font-size: 16px;               /* Tamanho da fonte do texto do botão */
+  cursor: pointer;               /* Cursor muda para a mãozinha ao passar sobre o botão */
 }
 
+/* Estilo para o parágrafo onde o resultado da validação é mostrado */
 #resultado {
-  margin-top: 20px;
-  font-size: 18px;
+  margin-top: 20px;              /* Espaço acima do elemento para separar do que vem antes */
+  font-size: 18px;               /* Tamanho da fonte do texto do resultado */
 }
